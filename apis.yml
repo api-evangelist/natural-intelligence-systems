@@ -1,8 +1,25 @@
 aid: natural-intelligence-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/natural-intelligence-systems.png
 name: Natural Intelligence Systems
-description: Natural Intelligence Systems is a company surfaced as a portfolio company of techstars and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Natural Intelligence Semiconductor (Natural Intelligence Systems) is a fabless semiconductor
+  startup founded in 2016 and headquartered in Boise, Idaho, led by founder and CEO Paul Dlugosch. The
+  company is developing the Natural Neural Processor (NNP), a novel processor architecture inspired by the
+  human neocortex to deliver disruptive performance for artificial intelligence and big-data analytics
+  workloads. Its roadmap spans the chips, system boards, and a software tool chain of compilers, drivers,
+  and low-level APIs needed to bring the NNP into customer systems. It exposes no public web API today;
+  the developer surface is chip- and driver-level tooling. Added to the API Evangelist network as a
+  Techstars portfolio lead.
 url: https://raw.githubusercontent.com/api-evangelist/natural-intelligence-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Semiconductor
+- Artificial Intelligence
+- Hardware
+- Neural Processor
+- Analytics
+- Chips
+- Techstars
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/natural-intelligence-systems-domain-security.yml
 - type: Website
   url: https://naturalsemi.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
